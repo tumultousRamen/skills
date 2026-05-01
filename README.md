@@ -1,10 +1,12 @@
-#Agent Skills 
+# Agent Skills 
+## Why
 This repository contains a focused set of skills that aim to allow generalized agents to do real work inside any repository. Agents are increasingly capable, but lack the personalized taste of a developer or the rules and standards of a repository. Coding agents, regardless of the provider, used without personalized context generate generic solutions at best, and at worst compounding slop that makes it extremely hard to develop. 
 
 Developers and agents alike need solid foundations, clearly defined processes of development, and user-specific context to provide valuable ROI. Any coding agent can spout tokens to solve a problem sub-optimally. LLMs in general have a proclivity / tendency to jump to conclusions, demonstrate frustating subservience, and critically an inability to think rationally and within the context. 
 
 This repository aims to offer a hyperfocused set of tools and skills to coding agents to address their shortcomings, personalize agents to behave like your junior developers, product managers, QA Engineers, and Researchers. 
 
+## What
 Current scope of this repo revolves around solving for:
 1. Agent over-eagerness to jump to solutions before thinking about the problem critically - this is particularly hard given the models innate nature - they are real intelligence but a really sophisticated pattern recoginition and predicition model. We still leverage this to our advantage - developers may lack knowledge or domain expertise, and this human shortcoming can be resolved by leverage the training data that the models have been trained on. 
 2. Stale training data - Models have a prior - they are innately ignorant of recent changes - this is becuase the data that even the most recent models have been trained on can be dated. The way to go around this is for the model to have access to the internet and perform web searches in real-time to gather real-world udpated data. claude's, codex's or cursor's websearch tool, however is unreliable. Agents work best when they have access to a browser, and is able to perform deep research and reason (or at least imitate reasoning) and gather information based on its reasoning. we provide the agent with a headless browser to perform its own deep-research. 

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "dp-skills",
+  "owner": {
+    "name": "Divya Prakash",
+    "email": "divyaprakas@gmail.com"
+  },
+  "description": "Opinionated skills for coding agents — anti-slop primitives and a span-grounded deep-research pipeline.",
+  "plugins": [
+    {
+      "name": "dp",
+      "source": "./",
+      "description": "Bundled agent skills: caveman (anti-slop framing) and deep-research (multi-stage research pipeline with citations).",
+      "homepage": "https://github.com/tumultousRamen/skills",
+      "repository": "https://github.com/tumultousRamen/skills",
+      "license": "MIT",
+      "keywords": ["research", "anti-slop", "agent-skills", "claude-code"],
+      "category": "productivity",
+      "strict": true
+    }
+  ]
+}

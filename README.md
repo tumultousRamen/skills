@@ -1,3 +1,5 @@
+![banner](assets/banner.jpg)
+
 # Agent Skills
 
 ## Install
@@ -12,6 +14,7 @@ This repo is a Claude Code [plugin marketplace](https://code.claude.com/docs/en/
 Skills are namespaced under the plugin name once installed:
 
 - `/dp:deep-research` — multi-stage research pipeline with span-grounded citations
+- `/dp:quick-research` — mid-task knowledge-gap fills (subagent does a tight search+fetch loop, returns a question-shaped answer)
 - `/dp:caveman` — anti-slop framing for agent reasoning
 
 To pin to a specific commit or tag, append `@<ref>` to the marketplace add (e.g. `tumultousRamen/skills@v0.1.0`). To share with a team via `.claude/settings.json`, see the [`extraKnownMarketplaces`](https://code.claude.com/docs/en/settings#plugin-settings) settings reference.

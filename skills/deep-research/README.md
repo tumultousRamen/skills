@@ -28,7 +28,7 @@ Use when the user explicitly asks to **research** something, **deep-dive**, **co
 
 **Don't use** for:
 - Quick factual lookups
-- Filling the agent's own knowledge gap mid-task (use `quick-research` instead, when it ships)
+- Filling the agent's own knowledge gap mid-task (use `quick-research` instead)
 - Single-source questions
 - Tasks where speed matters more than thoroughness
 

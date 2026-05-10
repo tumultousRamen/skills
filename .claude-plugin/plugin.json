@@ -1,8 +1,15 @@
 {
-    "name": "agent-skills",
+    "name": "dp",
+    "description": "Bundled agent skills: caveman (anti-slop framing) and deep-research (multi-stage research pipeline with citations).",
+    "author": {
+        "name": "Divya Prakash",
+        "email": "divyaprakas@gmail.com"
+    },
+    "homepage": "https://github.com/tumultousRamen/skills",
+    "repository": "https://github.com/tumultousRamen/skills",
+    "license": "MIT",
     "skills": [
-        "skills/caveman",
-        "skills/grill-me",
-        "skills/deep-research"
+        "./skills/caveman",
+        "./skills/deep-research"
     ]
 }

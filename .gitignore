@@ -2,6 +2,8 @@
 .vscode
 .idea/
 .claude/
+.research/
+.scratch/
 .venv/
 __pycache__/
 *.pyc

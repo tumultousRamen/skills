@@ -2,6 +2,9 @@
 .vscode
 .idea/
 .claude/
+.agents/
+docs/
+skills-lock.json
 .research/
 .scratch/
 .venv/

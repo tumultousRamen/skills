@@ -10,7 +10,7 @@
     {
       "name": "dp",
       "source": "./",
-      "description": "Bundled agent skills: caveman (anti-slop framing), deep-research (multi-stage research pipeline with citations), and quick-research (mid-task knowledge-gap fills).",
+      "description": "Bundled agent skills: caveman (anti-slop framing), consult (answer-first pyramid responses), deep-research (multi-stage research pipeline with citations), and quick-research (mid-task knowledge-gap fills).",
       "homepage": "https://github.com/tumultousRamen/skills",
       "repository": "https://github.com/tumultousRamen/skills",
       "license": "MIT",
